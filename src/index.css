@@ -64,16 +64,58 @@ h1{
   display: flex;
   align-content: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .active-btn>button{
   background-color: #6ebef7;
   padding: 42px;
 }
+.underline-app{
+  width: 100%;
+  height: 0.25rem;
+  background-color: #6ebef7;
+  margin: 4rem 0;
+}
+/* Bai 2 */
+.container-2{
 
-
-.active-btn{
-  
-  
-
+}
+.title-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 16px 0;
+}
+.user h3{
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.active-user{
+  border-bottom: solid 1px #6ebef7;
+  color: #6ebef7;
+}
+.section-center{
+  display: grid;
+  width: 200px;
+  grid-template-columns: repeat(8,0fr);
+  align-items: center;
+  justify-content: center;
+  margin: 24px auto;
+  padding: 2px;
+  border: solid 1px #ccc;
+}
+.section-center .item{
+  background-color: #e6e6e6;
+  width: 20px;
+  height: 20px;
+  margin: 2px!important;
+  display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 14px;
+    align-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: 600;
 }

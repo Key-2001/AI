@@ -77,9 +77,9 @@ h1{
   background-color: #6ebef7;
   margin: 4rem 0;
 }
-/* Bai 2 */
+/* Bai 4 */
 .container-2{
-
+  
 }
 .title-2{
   display: flex;
@@ -118,4 +118,140 @@ h1{
     box-sizing: border-box;
     cursor: pointer;
     font-weight: 600;
+}
+/* Bai 2 */
+.img{
+  width: 100px;
+  height: 200px;
+  background-color: #fff;
+  
+}
+.img2{
+  height: 150px;
+  width: 100px;
+}
+.option{
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bai2{
+  background-color: hsl(205, 100%, 96%);
+  width: 100vw;
+  height: 100vh;
+}
+.jar-container{
+  display: flex;
+  justify-content: center;
+}
+form{
+
+}
+.jar-item{
+  border: 1px solid #000;
+  padding: 4px;
+  margin-right: 4px;
+  width: 50px;
+}
+.relative{
+  position: relative;
+}
+button{
+  padding: 6px;
+  border: none;
+  background-color: #6ebef7;
+  color: #fff;
+  margin-left: 4px;
+}
+.center-item{
+  padding: 32px;
+  margin: 0 16px;
+  
+}
+h3{
+  text-align: center;
+  color: hsl(205, 63%, 48%);
+}
+.water-item{
+  position: absolute;
+    top: 38%;
+    right: 38%;
+}
+.margin-top{
+  margin-top: 45px;
+}
+.section-left{
+  display: flex;
+  width: 50%;
+  background-color: #fff;
+}
+.section-right{
+  width: 50%;
+  background-color: hsl(12, 89%, 89%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-right button{
+  margin: 8px 0;
+  width: 300px;
+  cursor: pointer;
+}
+.section-right button:hover{
+  background-color: hsl(205, 90%, 88%);
+  color: #000;
+}
+.max-water{
+  display: flex;
+}
+.max-water p{
+  text-transform: capitalize;
+  margin-right: 8px;
+}
+.max-water input{
+  width: 30px;
+  height: 15px;
+  margin: auto 0;
+}
+.target{
+
+}
+.target label{
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-right: 8px;
+}
+.target input{
+      padding: 4px;
+    width: 30px;
+    border: none;
+    font-size: 24px;
+
+}
+.bfs{
+  padding: 32px;
+  background-color: hsl(205, 100%, 96%);
+}
+.bfs button{
+  cursor: pointer;
+}
+.bfs button:hover{
+  background-color: hsl(205, 90%, 88%);
+  color: #000;
+}
+.show{
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+}
+.show div{
+  display: flex;
+  justify-content: space-between;
+}
+.show div div{
+  display: flex;
+  justify-content: space-around;
+  width: 240px;
 }

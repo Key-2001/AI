@@ -72,6 +72,8 @@ const Bai4 = () => {
         }
         if(count >= 5){
             alert(`${isUser1 ? 'USER1':'USER2'} VICTORY`)
+            setData(arr);
+            setIsUser1(true);
         }
     }
 
@@ -98,6 +100,8 @@ const Bai4 = () => {
         
         if(count >= 5){
            alert(`${isUser1 ? 'USER1':'USER2'} VICTORY`)
+           setData(arr);
+           setIsUser1(true);
         }
     }
 
@@ -125,6 +129,8 @@ const Bai4 = () => {
         console.log('count',count)
         if(count >= 5){
            alert(`${isUser1 ? 'USER1':'USER2'} VICTORY`)
+           setData(arr);
+           setIsUser1(true);
         }
     }
 
@@ -152,6 +158,8 @@ const Bai4 = () => {
         console.log('count',count)
         if(count >= 5){
            alert(`${isUser1 ? 'USER1':'USER2'} VICTORY`)
+           setData(arr);
+           setIsUser1(true);
         }
     }
 
